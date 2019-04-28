@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="cor em hexadecimal">
+	<title>Berrante FM</title>
+	<link rel="manifest" href="/manifest.json">
+</head>
+<style type="text/css" media="screen">
+	body {
+		margin: 0 auto;
+
+	}
+
+	.player {
+		background-color: #75a3a3;
+
+	}
+
+	.logo {
+		border: 5px solid #bfbfbf;
+	}
+
+	.pular {
+		background-image: url(img/but.png);
+		background-size: contain;
+		height: 30vh;
+		width: 30vh;
+	}
+</style>
+
+<body onload="chamar()">
+	<script type="text/javascript" src="js/jq.js"></script>
+	<script type="text/javascript" src='js/indexeu.js'></script>
+	<center>
+		<div class="player">
+			<button id="playAudio" onclick="playmusic()">PLAY</button>
+			<button id="pauseAudio" onclick="pausar()">PAUSE</button>
+			<button id="skipAudio" onclick="avancar()">Avançar</button>
+			<button id="stopAudio">STOP</button>
+			<button id="volumeUp">VOLUME UP</button>
+			<button id="volumeDown">VOLUME DOWN</button>
+		</div>
+		<audio class="audio" src="" autoplay></audio>
+	</center>
+
+
+
+	</script>
+</body>
+
+</html>

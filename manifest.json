@@ -1,0 +1,18 @@
+{
+    "name": "Berrante FM",
+    "short_name": "Berrante FM",
+    "theme_color": "#1f0d96",
+    "background_color": "#1f0d96",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/?utm_source=homescreen",
+    "lang": "pt-BR",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/assets/img/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
